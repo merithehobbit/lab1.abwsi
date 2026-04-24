@@ -1,110 +1,59 @@
-#Coding Portfolio — Labs + Fullstack App
+# Python Labs and Algorithm Practice
 
-This repository contains my programming labs, algorithm practice, and a full-stack image filter web app.
-
-It shows my progress in Python, web development, and backend systems.
+This repository contains my Python labs and algorithm practice exercises.  
+The goal of these labs is to build a strong foundation in problem solving, logic, and core programming concepts.
 
 ---
 
-#  What’s inside
+# Labs Overview
 
-## Python Labs
-
-### Lab 1B — Simple Calculator
-A command-line calculator that supports:
+## Lab 1B — Simple Calculator
+A command-line calculator that performs:
 - Addition
 - Subtraction
 - Multiplication
 - Division (with error handling)
 
-Focus: functions, conditionals, error handling.
+Concepts used:
+- Functions
+- Conditional logic
+- Input handling
+- Exception handling
 
 ---
 
-### Lab 1C — Maximum Subarray
-Finds the largest sum of any contiguous subarray.
+## Lab 1C — Maximum Subarray
+Finds the maximum sum of any contiguous subarray within a list.
 
-Focus:
-- algorithms
-- edge cases
-- debugging broken logic
-
----
-
-### Lab 1D — Two Sum Problem
-Returns indices of two numbers that add up to a target value.
-
-Focus:
-- hash maps
-- optimization
-- problem solving (LeetCode-style)
+Concepts used:
+- Algorithm optimization (Kadane’s Algorithm)
+- Looping and state tracking
+- Edge case handling
 
 ---
 
-## Full-Stack Web App (Filter Fun)
+## Lab 1D — Two Sum
+Returns the indices of two numbers that add up to a target value.
 
-A web app that lets users:
-- Upload images
-- Apply filters (grayscale, blur, sepia, invert, etc.)
-- Preview changes in real time
-- Save images to a gallery
-
-### Tech used:
-- TypeScript
-- React frontend
-- Node.js + Express backend
-- PostgreSQL (via Drizzle ORM)
+Concepts used:
+- Hash maps (dictionaries)
+- Efficient lookup (O(n) time complexity)
+- Problem solving patterns
 
 ---
 
-## Web App Features
+## Testing
+Includes unit tests for selected labs using pytest.
 
-- Image upload system
-- Live CSS filter preview
-- Gallery system (stored images)
-- Download option for edited images
-- Clean UI with responsive design
-
----
-
-##  What this project demonstrates
-
-- Python fundamentals
-- Data structures and algorithms
-- Full-stack development
-- API design
-- Frontend UI work
-- Working with databases
-- Debugging and problem solving
+Tests cover:
+- Correct outputs
+- Edge cases
+- Error handling (like division by zero)
 
 ---
 
-##  How to run
+# How to Run
 
-### Python labs:
-Run each file individually:
+Make sure you have Python installed.
 
-python lab_1b.py
-python lab_1c.py
-python lab_1d.py
-
-
-### Web app:
-
-npm install
-npm run dev
-
-
----
-
-##  Notes
-
-- Some labs are based on classic coding problems (LeetCode-style)
-- The web app was built as a learning project for full-stack development
-- This repo represents my learning progress over time
-
----
-
-##  Author
-
-Built by me while learning programming, web development, and algorithms.
+Run a lab file:
